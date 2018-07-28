@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @author isegodin
  */
 @RestController
-@RequestMapping("/subscribe")
-public class DocumentSubscribeController {
+@RequestMapping("/subscriber")
+public class DocumentSubscriberController {
 
 
     @GetMapping("/status")
